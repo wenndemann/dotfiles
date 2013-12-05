@@ -83,3 +83,7 @@ export HISTIGNORE=$'[ \t]*:&:[fb]g:exit:ls' # Ignore the ls command as well
 # alias la='ls -A'                              # all but . and ..
 # alias l='ls -CF'                              #
 
+if [ "$(tty)" = "/dev/tty1" ]; then
+	startx
+	logout
+fi
