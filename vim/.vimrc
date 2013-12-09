@@ -1,4 +1,34 @@
 """""""""""""""""""""""""""""""
+" vundle
+"""""""""""""""""""""""""""""""
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+" repos on github
+"Bundle 'user/vim-plugin'
+Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdcommenter'
+
+" vim-scripts repos
+"Bundle 'PluginName'
+
+" non github repos
+"Bundle 'git://git.example.com/vim-plugin.git'
+
+" local git repos
+"Bundle 'file:///home/user/path/to/plugin'
+
+filetype plugin indent on
+
+" key mappings
+source ~/.vim/startup/mappings.vim
+
+"""""""""""""""""""""""""""""""
 " user interface
 """""""""""""""""""""""""""""""
 " 10 lines to the cursor
