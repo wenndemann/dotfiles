@@ -43,6 +43,8 @@ set wildignore=*.o,*~
 " highlight search results
 set hlsearch
 
+" enable mouse support
+set mouse=a
 
 """""""""""""""""""""""""""""""
 " colors
