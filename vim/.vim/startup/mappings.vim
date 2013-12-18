@@ -14,3 +14,6 @@ vno <up> <Nop>
 
 "NERDtree
 no <C-n> :NERDTreeToggle<CR>
+
+"tlist
+nnoremap <silent> <F8> :TlistToggle<CR>

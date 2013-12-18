@@ -16,6 +16,7 @@ Bundle 'scrooloose/nerdcommenter'
 
 " vim-scripts repos
 "Bundle 'PluginName'
+Bundle 'taglist'
 
 " non github repos
 "Bundle 'git://git.example.com/vim-plugin.git'
@@ -27,6 +28,11 @@ filetype plugin indent on
 
 " key mappings
 source ~/.vim/startup/mappings.vim
+
+"""""""""""""""""""""""""""""""
+" tlist
+"""""""""""""""""""""""""""""""
+let Tlist_Use_Right_Window = 1
 
 """""""""""""""""""""""""""""""
 " user interface
