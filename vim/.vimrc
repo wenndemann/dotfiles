@@ -17,6 +17,7 @@ Bundle 'scrooloose/nerdcommenter'
 " vim-scripts repos
 "Bundle 'PluginName'
 Bundle 'taglist'
+Bundle 'a'
 
 " non github repos
 "Bundle 'git://git.example.com/vim-plugin.git'
