@@ -17,3 +17,7 @@ no <C-n> :NERDTreeToggle<CR>
 
 "tlist
 nnoremap <silent> <F8> :TlistToggle<CR>
+
+"a.vim
+nmap <C-tab> :A<CR>
+map <C-tab> :A<CR>

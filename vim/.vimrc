@@ -12,6 +12,7 @@ Bundle 'gmarik/vundle'
 " repos on github
 "Bundle 'user/vim-plugin'
 Bundle 'scrooloose/nerdtree'
+Bundle 'Rip-Rip/clang_complete'
 Bundle 'scrooloose/nerdcommenter'
 
 " vim-scripts repos
