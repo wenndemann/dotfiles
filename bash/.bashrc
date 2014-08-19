@@ -17,6 +17,7 @@ fi
 # extend PATH
 export PATH=$PATH":/home/${USER}/bin/"
 
+# set prompt style
 source ~/.bash_prompt
 
 #cd `cat ~/.prev_dir`

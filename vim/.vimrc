@@ -4,21 +4,21 @@
 set nocompatible
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/dotfiles/vim/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
 " repos on github
 "Bundle 'user/vim-plugin'
-Bundle 'scrooloose/nerdtree'
-Bundle 'Rip-Rip/clang_complete'
-Bundle 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Rip-Rip/clang_complete'
+Plugin 'scrooloose/nerdcommenter'
 
 " vim-scripts repos
 "Bundle 'PluginName'
-Bundle 'taglist'
-Bundle 'a'
+Plugin 'taglist'
+Plugin 'a'
 
 " non github repos
 "Bundle 'git://git.example.com/vim-plugin.git'
@@ -26,6 +26,7 @@ Bundle 'a'
 " local git repos
 "Bundle 'file:///home/user/path/to/plugin'
 
+call vundle#end()
 filetype plugin indent on
 
 " key mappings
